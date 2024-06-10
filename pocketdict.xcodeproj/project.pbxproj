@@ -16,6 +16,11 @@
 		814CEAEF2C172729004711E5 /* pocketdictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CEAEE2C172729004711E5 /* pocketdictTests.swift */; };
 		814CEAF92C172729004711E5 /* pocketdictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CEAF82C172729004711E5 /* pocketdictUITests.swift */; };
 		814CEAFB2C172729004711E5 /* pocketdictUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CEAFA2C172729004711E5 /* pocketdictUITestsLaunchTests.swift */; };
+		814CEB082C172740004711E5 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CEB072C172740004711E5 /* Word.swift */; };
+		814CEB0A2C17274C004711E5 /* WordStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CEB092C17274C004711E5 /* WordStore.swift */; };
+		814CEB0C2C172759004711E5 /* WordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CEB0B2C172759004711E5 /* WordListViewController.swift */; };
+		814CEB0E2C17276E004711E5 /* AddWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CEB0D2C17276E004711E5 /* AddWordViewController.swift */; };
+		814CEB102C172780004711E5 /* SentenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CEB0F2C172780004711E5 /* SentenceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		814CEAF42C172729004711E5 /* pocketdictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketdictUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		814CEAF82C172729004711E5 /* pocketdictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketdictUITests.swift; sourceTree = "<group>"; };
 		814CEAFA2C172729004711E5 /* pocketdictUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketdictUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		814CEB072C172740004711E5 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		814CEB092C17274C004711E5 /* WordStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordStore.swift; sourceTree = "<group>"; };
+		814CEB0B2C172759004711E5 /* WordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListViewController.swift; sourceTree = "<group>"; };
+		814CEB0D2C17276E004711E5 /* AddWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordViewController.swift; sourceTree = "<group>"; };
+		814CEB0F2C172780004711E5 /* SentenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				814CEAE02C172729004711E5 /* Assets.xcassets */,
 				814CEAE22C172729004711E5 /* LaunchScreen.storyboard */,
 				814CEAE52C172729004711E5 /* Info.plist */,
+				814CEB072C172740004711E5 /* Word.swift */,
+				814CEB092C17274C004711E5 /* WordStore.swift */,
+				814CEB0B2C172759004711E5 /* WordListViewController.swift */,
+				814CEB0D2C17276E004711E5 /* AddWordViewController.swift */,
+				814CEB0F2C172780004711E5 /* SentenceViewController.swift */,
 			);
 			path = pocketdict;
 			sourceTree = "<group>";
@@ -259,6 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				814CEADC2C172728004711E5 /* ViewController.swift in Sources */,
+				814CEB082C172740004711E5 /* Word.swift in Sources */,
+				814CEB0E2C17276E004711E5 /* AddWordViewController.swift in Sources */,
+				814CEB102C172780004711E5 /* SentenceViewController.swift in Sources */,
+				814CEB0C2C172759004711E5 /* WordListViewController.swift in Sources */,
+				814CEB0A2C17274C004711E5 /* WordStore.swift in Sources */,
 				814CEAD82C172728004711E5 /* AppDelegate.swift in Sources */,
 				814CEADA2C172728004711E5 /* SceneDelegate.swift in Sources */,
 			);
